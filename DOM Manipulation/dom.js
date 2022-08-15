@@ -33,7 +33,6 @@
 //  headerTitle.innerHTML = '<h3>HELLO</h3>'
 // header.style.borderBottom = 'solid 3px #000';
 
-
 // GET ELEMENT BY CLASS NAME
 // let items = document.getElementsByClassName('list-group-item');
 // console.log(items);
@@ -114,7 +113,6 @@ let itemList = document.querySelector('#items');
 // console.log(itemList.firstElementChild);
 // itemList.firstElementChild.textContent = 'test firstElementChild';
 
-
 //  lastchild
 // console.log(itemList.lastChild);
 
@@ -172,7 +170,7 @@ let itemList = document.querySelector('#items');
 
 // let button = document.getElementById('button').addEventListener('click', buttonClick);
 
-// function buttonClick(e) { 
+// function buttonClick(e) {
 //     // //console.log('Button Clicked');
 //     // document.getElementById('header-title').textContent = 'Changed';
 //     // document.querySelector('#main').style.backgroundColor = '#f4f4f4';
@@ -196,7 +194,7 @@ let itemList = document.querySelector('#items');
 // }
 
 // mouse event
-let button = document.getElementById('button')
+let button = document.getElementById('button');
 let box = document.getElementById('box');
 
 //button.addEventListener('click', runEvent);
@@ -235,33 +233,14 @@ let select = document.querySelector('select');
 
 form.addEventListener('submit', runEvent);
 
-
 function runEvent(e) {
-    e.preventDefault();
-    //console.log('Event type: ' + e.type);
+  e.preventDefault();
+  //console.log('Event type: ' + e.type);
   //output.innerHTML = '<h3>mouse X: ' + e.offsetX + '</h3><h3>mouse Y:' + e.offsetY + '</h3>';
 
   //box.style.backgroundColor = "rgb(" + e.offsetX +","+ e.offsetY + ",40)";
 
   //console.log(e.target.value);
-  document.getElementById('output').innerHTML = '<h3>'+ e.target.value + '</h3>'
-
-
+  document.getElementById('output').innerHTML =
+    '<h3>' + e.target.value + '</h3>';
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

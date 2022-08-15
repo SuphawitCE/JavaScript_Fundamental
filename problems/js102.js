@@ -1,4 +1,3 @@
-
 // let ref = [1];
 // let refCpy = ref;
 
@@ -25,10 +24,9 @@
 //console.log(personObj1);    // Alex 25
 //console.log(personObj2);    // John 25
 
-
 var personObj1 = {
-    name: 'Alex',
-    age: 30
+  name: 'Alex',
+  age: 30
 };
 var person = personObj1;
 person.age = 25;
@@ -42,4 +40,3 @@ var personObj2 = person;
 //  Obj2 = John 50
 console.log(personObj1);
 console.log(personObj2);
-
