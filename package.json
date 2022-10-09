@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/SuphawitCE/JavaScript_Fundamental#readme",
   "dependencies": {
-    "axios": "0.27.2"
+    "axios": "0.27.2",
+    "got": "12.5.1"
   }
 }
