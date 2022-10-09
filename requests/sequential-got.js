@@ -1,8 +1,11 @@
-const axios = require('axios');
+// const axios = require('axios');
+const got = require('got');
+
+// WIP
 
 // Run command: time node fileName.js
 
-const getAxiosWithLogs = () => {
+const getGotWithLogs = () => {
   axios.interceptors.request.use((request) => {
     const date = new Date();
     console.log(`${date.toISOString()} - Calling URL: `, request.url);
@@ -37,11 +40,11 @@ const getAxiosWithLogs = () => {
     'sql',
     'shell'
   ];
-  const axiosWithLogs = getAxiosWithLogs();
+  const axiosWithLogs = getGotWithLogs();
 
   for (const term of terms) {
     try {
-      const response = await axiosWithLogs.get(`${stackExchangeApi}${term}`);
+      const response = await axiosWithLogs.got(`${stackExchangeApi}${term}`);
       const date = new Date();
       console.log(
         `${date.toISOString()} - title sequential: `,
