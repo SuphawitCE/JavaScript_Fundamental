@@ -1,0 +1,23 @@
+{
+  "name": "javascript-fundmental",
+  "version": "1.0.0",
+  "description": "Demonstrate fundmental",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuphawitCE/JavaScript_Fundamental.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuphawitCE/JavaScript_Fundamental/issues"
+  },
+  "homepage": "https://github.com/SuphawitCE/JavaScript_Fundamental#readme",
+  "dependencies": {
+    "axios": "0.27.2"
+  }
+}
